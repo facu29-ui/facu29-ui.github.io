@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - MALE Barber Shop</title>
+    <link rel="stylesheet" href="极速style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="极速https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Raleway:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <img src="images/male-logo.jpeg" alt="MALE Barber Shop & Drink" class="logo-image">
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="servicios.html">Servicios</a></li>
+                    <li><a href="contacto.html" class="active">Contacto</极速/a></li>
+                </ul>
+            </nav>
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2>Contáctanos</h2>
+                <p>Estamos aquí para responder tus preguntas y ayudarte a reservar tu próxima cita.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact">
+        <div class="container">
+            <h2>Envíanos un mensaje</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <h3>Información de contacto</h3>
+                        <p><strong>Luque (Central):</strong> Dr. José Gaspar Rodríguez de Francia, Luque 110932</p>
+                        <p><strong>Teléfono:</strong> +595 983 819419</p>
+                        <p><strong>Email:</strong> info@malebarber.com</p>
+                    </div>
+                    <div class="info-item">
+                        <h3>Sucursales</h3>
+                        <p><strong>San Lorenzo:</strong> Pompeya, San Lorenzo 2160</p>
+                        <p><strong>Teléfono:</strong> 0984141415</p>
+                        <br>
+                        <p><strong>Capiatá:</strong> HHV4+6XV, Unnamed Road, Capiatá 111903</p>
+                        <p><strong>Teléfono:</strong> 0984141415</p>
+                    </div>
+                    <div class="info-item">
+                        <h3>Ubicación</h3>
+                        <div class="map">
+                            <img src="https://placehold.co/500x300/1a1a1a/404040?text=Mapa+de+ubicación" alt="Ubicación de MALE Barber Shop">
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Nombre completo</label>
+                            <input type="text" id="name" name="name" required>
+                            <span class="error-message" id="nameError"></span>
+                        </div>
+                        <极速div class="form-group">
+                            <label for="email">Correo electrónico</label>
+                            <input type="email" id="email" name="email" required>
+                            <span class="error-message" id="emailError"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Teléfono</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        <div class="form-group">
+                            <label for="service">Servicio de interés</label>
+                            <select id="service" name="service">
+                                <option value="">Selecciona un servicio</option>
+                                <option value="corte">Corte Clásico</option>
+                                <option value="afeitado">Afeitado Premium</option>
+                                <option value="barba">Barba Estilizada</option>
+                                <option value="corte-barba">Corte + Barba</option>
+                                <option value="experiencia">Experiencia MALE</option>
+                                <option value="otros">Otros</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Mensaje</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                            <span class="error-message" id="messageError"></span>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar mensaje</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="images/male-logo.jpeg" alt="MALE Barber Shop & Drink" class="logo-image">
+                </div>
+                <div class="footer-contact">
+                    <h3>Contacto y Sucursales</h3>
+                    <极速p><strong>Luque (Central):</strong></p>
+                    <p>Dr. José Gaspar Rodríguez de Francia, Luque 110932</p>
+                    <p><strong>Teléfono:</strong> +595 983 819419</p>
+                    <p><strong>Email:</极速strong> info@malebarber.com</p>
+                    <br>
+                    <p><strong>San Lorenzo:</strong></p>
+                    <p>Pompeya, San Lorenzo 2160</p>
+                    <p><strong>Teléfono:</strong> 0984141415</p>
+                    <br>
+                    <p><strong>Capiatá:</strong></p>
+                    <p>HHV4+6XV, Unnamed Road, Capiatá 111903</p>
+                    <p><strong>Teléfono:</strong> 0984141415</p>
+                </div>
+                <div class="footer-hours">
+                    <h3>Horario</h3>
+                    <p>Lunes - Viernes: 9:00 - 20:00</p>
+                    <p>Sábado: 10:00 - 18:00</p>
+                    <p>Domingo: Cerrado</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 MALE Barber Shop and Drink. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MALE - Barber Shop and Drink</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Raleway:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <div class="logo">
+    <img src="logo.jpeg" alt="MALE Barber Shop & Drink" class="logo-image">
+</div
+            <nav class="nav">
+                <ul>
+                    <li><a href="index.html" class="active">Inicio</a></li>
+                    <li><a href="servicios.html">Servicios</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2>La esencia del estilo masculino</h2>
+                <p>Donde la tradición se encuentra con la modernidad. En MALE, cada corte es una obra de arte, cada afeitado una experiencia.</p>
+                <a href="servicios.html" class="btn btn-primary">Ver servicios</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="about">
+        <div class="container">
+            <div class="about-content">
+                <h2>Nuestra historia</h2>
+                <p>Fundado el 28 de septiembre del 2019 MALE nació de la pasión por el arte del afeitado tradicional y la visión de un hombre por crear un espacio único para el hombre moderno. Desde nuestra fundación en Luque, nos hemos dedicado a ofrecer un servicio excepcional, combinando técnicas clásicas con un ambiente de lujo.</p>
+                <p>Con el éxito de nuestra primera sucursal, hemos expandido nuestra pasión a dos nuevas ubicaciones en San Lorenzo y Capiatá. En cada local, mantenemos nuestra promesa de calidad, atención al detalle y un ambiente relajado donde puedes disfrutar de una bebida mientras te transformamos.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="gallery">
+        <div class="container">
+            <h2>Galería de trabajos</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item" onclick="openModal('gallery-image-1')">
+                    <img src="https://placehold.co/400x300/1a1a1a/ffffff?text=Corte+Clásico" alt="Corte Clásico">
+                    <div class="overlay">
+                        <span>Ver imagen</span>
+                    </div>
+                </div>
+                <div class="gallery-item" onclick="openModal('gallery-image-2')">
+                    <img src="https://placehold.co/400x300/1a1a1a/ffffff?text=Afeitado+Premium" alt="Afeitado Premium">
+                    <div class="overlay">
+                        <span>Ver imagen</span>
+                    </div>
+                </div>
+                <div class="gallery-item" onclick="openModal('gallery-image-3')">
+                    <img src="https://placehold.co/400x300/1a1a1a/ffffff?text=Barba+Estilizada" alt="Barba Estilizada">
+                    <div class="overlay">
+                        <span>Ver imagen</span>
+                    </div>
+                </div>
+                <div class="gallery-item" onclick="openModal('gallery-image-4')">
+                    <img src="https://placehold.co/400x300/1a1a1a/ffffff?text=Corte+Moderno" alt="Corte Moderno">
+                    <div class="overlay">
+                        <span>Ver imagen</span>
+                    </div>
+                </div>
+                <div class="gallery-item" onclick="openModal('gallery-image-5')">
+                    <img src="https://placehold.co/400x300/1a1a1a/ffffff?text=Barber+Chair" alt="Silla de barbero">
+                    <div class="overlay">
+                        <span>Ver imagen</span>
+                    </div>
+                </div>
+                <div class="gallery-item" onclick="openModal('gallery-image-6')">
+                    <img src="https://placehold.co/400x300/1a1a1a/ffffff?text=Detalles" alt="Detalles">
+                    <div class="overlay">
+                        <span>Ver imagen</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="imageModal" class="modal">
+        <span class="close-modal" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="modalImage">
+        <div id="caption"></div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="images/male-logo.jpeg" alt="MALE Barber Shop & Drink" class="logo-image">
+                </div>
+                <div class="footer-contact">
+                    <h3>Contacto y Sucursales</h3>
+                    <p><strong>Luque (Central):</strong></p>
+                    <p>Dr. José Gaspar Rodríguez de Francia, Luque 110932</p>
+                    <p><strong>Teléfono:</strong> +595 983 819419</p>
+                    <p><strong>Email:</strong> info@malebarber.com</p>
+                    <br>
+                    <p><strong>San Lorenzo:</strong></p>
+                    <p>Pompeya, San Lorenzo 2160</p>
+                    <p><strong>Teléfono:</strong> 0984141415</p>
+                    <br>
+                    <p><strong>Capiatá:</strong></p>
+                    <p>HHV4+6XV, Unnamed Road, Capiatá 111903</p>
+                    <p><strong>Teléfono:</strong> 0984141415</p>
+                </div>
+                <div class="footer-hours">
+                    <h3>Horario</h3>
+                    <p>Lunes - Viernes: 9:00 - 20:00</p>
+                    <p>Sábado: 10:00 - 18:00</p>
+                    <p>Domingo: Cerrado</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 MALE Barber Shop and Drink. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
